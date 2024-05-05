@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Formulário de inscrição</title>
+
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 id="title">Formulário de inscrição</h1>
+        <p id="description">Preench os dados conforme solicitado</p>
+        <form id="survey-form" method="post" action="https://register-demo.freecodecamp.org">
+            <fieldset>
+               <legend>Dados pessoais:</legend> 
+                <label for="name-label">Insira seu nome<input placeholder="exemplo" type="text" id="name"/></label>
+                <label for="email-label">Insira seu e-mail<input placeholder="exemplo@gmail.com" type="email" id="email"/></label>
+                <label for="number-label">Insira sua idade<input placeholder="idade" type="number" min="13" max="120"/></label>
+            </fieldset>
+            <fieldset>
+            <label>Como soube da nossa empresa?
+                <select>
+                    <option>Selecione uma opção</option>
+                    <option>Instagram</option>
+                    <option>YouTube</option>
+                    <option>TikTok</option>
+                </select>
+            </label>    
+            </fieldset>
+            <fieldset>
+            <legend>Qual seu tipo de perfil?</legend>
+                <label for="conta-profissional">Profissional<input id="conta-profissional" name="account-type" type="radio" checked/></label>
+                <label for="conta-estudante">Estudante<input id="conta-estudante" name="account-type" type="radio"/></label>
+            </fieldset>
+            <fieldset>
+            <legend>Quais linguagens de programação você deseja aprender?</legend>
+                <label for="html">Html<input id="html" type="checkbox"/></label>
+                <label for="javascript">Javascript<input id="javascript" type="checkbox"/></label>
+                <label for="css">CSS<input id="css" type="checkbox"/></label>
+                <label for="python">Python<input id="python" type="checkbox"/></label>
+                <label for="java">Java<input id="java" type="checkbox"/>
+                ]
+            </label>
+
+            </fieldset>          
+        </form>
+    </body>
+</html>

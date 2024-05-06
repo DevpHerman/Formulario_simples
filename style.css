@@ -71,3 +71,11 @@ div {
     margin-right: auto;
     width: fit-content; /* Isso faz com que o fieldset tenha a largura do conteúdo dentro dele */
 }
+legend {
+    text-align: center;
+}
+textarea {
+    display: block; /* Garante que a textarea se comporte como um bloco */
+    margin: 0 auto; /* Centraliza horizontalmente usando margens automáticas */
+    width: 80%; /* Defina uma largura desejada para a textarea */
+}

@@ -65,17 +65,17 @@ input [type="file"] {
 }
 
 div {
-    border: 2px solid black; /* Define uma borda preta com 2px de largura */
-    padding: 20px; /* Adiciona algum espaço interno para evitar que o conteúdo encoste na borda */
+    border: 2px solid black; 
+    padding: 20px; 
     margin-left: auto;
     margin-right: auto;
-    width: fit-content; /* Isso faz com que o fieldset tenha a largura do conteúdo dentro dele */
+    width: fit-content; 
 }
 legend {
     text-align: center;
 }
 textarea {
-    display: block; /* Garante que a textarea se comporte como um bloco */
-    margin: 0 auto; /* Centraliza horizontalmente usando margens automáticas */
-    width: 80%; /* Defina uma largura desejada para a textarea */
+    display: block; 
+    margin: 0 auto; 
+    width: 80%; 
 }

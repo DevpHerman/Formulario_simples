@@ -13,13 +13,13 @@
         <form id="survey-form" method="post" action="https://register-demo.freecodecamp.org">
             <fieldset>
                <legend>Dados pessoais:</legend> 
-                <label for="name-label">Insira seu nome<input placeholder="exemplo" type="text" id="name-label" required/></label>
-                <label for="email-label">Insira seu e-mail<input placeholder="exemplo@gmail.com" type="email-label" id="email" required/></label>
-                <label for="number-label">Insira sua idade<input placeholder="idade" type="number-label" min="13" max="120" required/></label>
+                <label id="name-label">Insira seu nome<input placeholder="exemplo" type="text" id="name" required/></label>
+                <label id="email-label">Insira seu e-mail<input placeholder="exemplo@gmail.com" type="email" id="email" required/></label>
+                <label id="number-label">Insira sua idade<input placeholder="idade" id="number" type="number" min="13" max="120" required/></label>
             </fieldset>
             <fieldset>
             <label>Como soube da nossa empresa?
-                <select>
+                <select id="dropdown">
                     <option>Selecione uma opção</option>
                     <option>Instagram</option>
                     <option>YouTube</option>
@@ -29,21 +29,22 @@
             </fieldset>
             <fieldset>
             <legend>Qual seu tipo de perfil?</legend>
-                <label for="conta-profissional">Profissional<input id="conta-profissional" name="account-type" type="radio" class="inline" checked/></label>
-                <label for="conta-estudante">Estudante<input id="conta-estudante" name="account-type" type="radio" class="inline"/></label>
+                <label for="conta-profissional">Profissional<input value="conta-profissional" id="conta-profissional" name="account-type" type="radio" class="inline" checked/></label>
+                <label for="conta-estudante">Estudante<input value="conta-estudante" id="conta-estudante" name="account-type" type="radio" class="inline"/></label>
             </fieldset>
             <fieldset>
             <legend>Quais linguagens de programação você deseja aprender?</legend>
-                <label for="html">Html<input id="html" type="checkbox"/></label>
-                <label for="javascript">Javascript<input id="javascript" type="checkbox"/></label>
-                <label for="css">CSS<input id="css" type="checkbox"/></label>
-                <label for="python">Python<input id="python" type="checkbox"/></label>
-                <label for="java">Java<input id="java" type="checkbox"/>
+                <label for="html">Html<input value="html" id="html" type="checkbox"/></label>
+                <label for="javascript">Javascript<input value="javascript" id="javascript" type="checkbox"/></label>
+                <label for="css">CSS<input value="css" id="css" type="checkbox"/></label>
+                <label for="python">Python<input value="python" id="python" type="checkbox"/></label>
+                <label for="java">Java<input value="java" id="java" type="checkbox"/>
             </fieldset> 
            <legend> Deixe um comentário</legend>
                 <textarea placeholder="Deixe aqui seu comentário" id="comentario" name="comentario" rows="3" cols="30"></textarea>
-        </div>
-            <input type="submit" value="submit"/>         
-        </form>
+                <input id="submit" type="submit" value="submit"/>  
+               
+       </form>
+    </div>
     </body>
 </html>
